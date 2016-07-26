@@ -87,6 +87,7 @@ public class MyWallpaperService extends WallpaperService {
 
             provider = locationManager.getBestProvider(criteria, true);
 
+
             if(!locationManager
                     .isProviderEnabled(LocationManager.GPS_PROVIDER)){
                 Toast.makeText(getApplicationContext(), "Someone wants to know your Location!", Toast.LENGTH_SHORT).show();
@@ -368,18 +369,18 @@ public class MyWallpaperService extends WallpaperService {
                         //wifi.startScan();
                         wifiScan = wifi.getScanResults();
                     }
-                    if(bluetoothAdapter.isEnabled()) {
-                        if (counter % 20 == 0) {
-                            bluetoothAdapter.startDiscovery();
-                            //System.out.println(bluetoothScan.size());
 
-                        }
-                        if (counter == 100) {
+                    if (counter % 20 == 0) {
+                        bluetoothAdapter.startDiscovery();
+                        //System.out.println(bluetoothScan.size());
 
-                            bluetoothScan.clear();
-                            counter = 0;
-                        }
                     }
+                    if (counter == 100) {
+
+                        bluetoothScan.clear();
+                        counter = 0;
+                    }
+
                     p.setTextSize(20);
                     //x = c.getWidth()/2;
                     x = 20;
