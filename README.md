@@ -6,6 +6,7 @@ The Source Code is available on GitHub (https://github.com/KJReal/BackgroundData
 
 Best, KJ
 
+For trying the App/Live Wallpaper just Download 'BackgroundData-debug.apk' and install it on your Android device.
 
 This is an Android Studio Project. You can easily download it and import it in you Studio.
 
