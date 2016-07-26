@@ -7,7 +7,7 @@ The Source Code is available on GitHub (https://github.com/KJReal/BackgroundData
 Best, KJ
 
 
-This is an Android Studio Project. You can easily download is and import it in you Studio.
+This is an Android Studio Project. You can easily download it and import it in you Studio.
 
 It contains (Android specific):
 
