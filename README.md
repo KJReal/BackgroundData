@@ -8,9 +8,15 @@ Best, KJ
 
 
 This is an Android Studio Project. You can easily download is and import it in you Studio.
+
 It contains (Android specific):
+
 -how a Live Wallpaper is set up
+
 -how you access your location
+
 -how you access you Microphone
+
 -how you list available Wi-Fi networks and Bluetooth devices
+
 -how Permissions are granted in Android 6.0
